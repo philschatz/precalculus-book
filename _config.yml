@@ -1,0 +1,11 @@
+# Dependencies
+markdown:         kramdown
+author:
+  name:           'Openstax'
+  url:            https://github.com/openstax
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+bookviewer:       /book-viewer
