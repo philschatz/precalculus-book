@@ -1,3 +1,4 @@
+
 # Dependencies
 markdown:         kramdown
 
@@ -5,10 +6,10 @@ markdown:         kramdown
 #permalink:        pretty
 
 # Setup
-title:            "Precalculus"
-tagline:          'from http://cnx.org/contents/fd53eae1-fa23-47c7-bb1b-972349835c3c@5.47 (CC-BY)'
+title:            'Precalculus'
+tagline:          'from http://cnx.org/contents/fd53eae1-fa23-47c7-bb1b-972349835c3c@6.20 (CC-BY)'
 url:              https://github.com/philschatz/precalculus-book
-origin:           http://cnx.org/contents/fd53eae1-fa23-47c7-bb1b-972349835c3c@5.47/Precalculus
+origin:           http://cnx.org/contents/fd53eae1-fa23-47c7-bb1b-972349835c3c@6.20
 
 author:
   name:           'Openstax'
@@ -17,6 +18,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          1.0.0
+version:          6.20
 
-bookviewer:       /book-viewer
+bookviewer:       http://philschatz.com/book-viewer
+
