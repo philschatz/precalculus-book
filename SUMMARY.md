@@ -106,5 +106,5 @@ Precalculus is intended for college-level Precalculus students. Since Precalculu
     3.  [Continuity](contents/m49454.md)
     4.  [Derivatives](contents/m49455.md)
 
-14. {: .appendix} [Appendix](contents/m50414.md)
+14. {: .appendix} [Basic Functions and Identities](contents/m50414.md)
 

@@ -1,0 +1,1719 @@
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml"
+                xmlns:cnx="http://cnx.rice.edu/cnxml"
+                xmlns:cnxorg="http://cnx.rice.edu/system-info"
+                xmlns:md="http://cnx.rice.edu/mdml"
+                xmlns:col="http://cnx.rice.edu/collxml"
+                xmlns:cnxml="http://cnx.rice.edu/cnxml"
+                xmlns:m="http://www.w3.org/1998/Math/MathML"
+                xmlns:q="http://cnx.rice.edu/qml/1.0"
+                xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                xmlns:bib="http://bibtexml.sf.net/"
+                xmlns:cc="http://web.resource.org/cc/"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml"
+          mdml-version="0.5">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+
+  <md:repository>https://legacy.cnx.org/content</md:repository>
+  <md:content-url>https://legacy.cnx.org/content/col11667/1.6</md:content-url>
+  <md:content-id>col11667</md:content-id>
+  <md:title>Precalculus</md:title>
+  
+  
+  <md:version>1.6</md:version>
+  <md:created>2014/02/20 16:43:38.427 US/Central</md:created>
+  <md:revised>2016/01/19 15:08:22.160 US/Central</md:revised>
+
+  <md:actors>
+    
+    <md:organization userid="OpenStaxCollege">
+      <md:shortname>OpenStax</md:shortname>
+      <md:fullname>OpenStax</md:fullname>
+      <md:email>info@openstax.org</md:email>
+    </md:organization>
+    
+    
+    
+    
+    <md:person userid="OSCRiceUniversity">
+      <md:firstname>Rice</md:firstname>
+      <md:surname>University</md:surname>
+      <md:fullname>Rice University</md:fullname>
+      <md:email>info@openstaxcollege.org</md:email>
+    </md:person>
+    
+    
+    
+    <md:person userid="cnxprecal">
+      <md:firstname>OpenStax College</md:firstname>
+      <md:surname>Precalculus</md:surname>
+      <md:fullname>OpenStax Precalculus</md:fullname>
+      <md:email>sanura@mac.com</md:email>
+    </md:person>
+    
+  </md:actors>
+  <md:roles>
+    <md:role type="author">OpenStaxCollege</md:role>
+    <md:role type="maintainer">OpenStaxCollege cnxprecal</md:role>
+    <md:role type="licensor">OSCRiceUniversity</md:role>
+    
+    
+  </md:roles>
+
+  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+  <!-- For information on license requirements for use or modification, see license url in the
+       above <md:license> element.
+       For information on formatting required attribution, see the URL:
+         CONTENT_URL/content_info#cnx_cite_header
+       where CONTENT_URL is the value provided above in the <md:content-url> element.
+  -->
+  
+  
+  
+  
+
+  
+
+  <md:keywordlist>
+    <md:keyword>absolute maximum</md:keyword>
+    <md:keyword>absolute minimum</md:keyword>
+    <md:keyword>absolute value</md:keyword>
+    <md:keyword>absolute-value equation</md:keyword>
+    <md:keyword>absolute-value function</md:keyword>
+    <md:keyword>absolute-value inequality</md:keyword>
+    <md:keyword>Addition Principle</md:keyword>
+    <md:keyword>adjacent side</md:keyword>
+    <md:keyword>altitude</md:keyword>
+    <md:keyword>ambiguous case</md:keyword>
+    <md:keyword>amplitude</md:keyword>
+    <md:keyword>angle</md:keyword>
+    <md:keyword>angle of elevation</md:keyword>
+    <md:keyword>angular speed</md:keyword>
+    <md:keyword>annual percentage rate</md:keyword>
+    <md:keyword>annuity</md:keyword>
+    <md:keyword>arc length</md:keyword>
+    <md:keyword>arccosine</md:keyword>
+    <md:keyword>Archimedes’ spiral</md:keyword>
+    <md:keyword>arcsine</md:keyword>
+    <md:keyword>arctangent</md:keyword>
+    <md:keyword>area of a sector</md:keyword>
+    <md:keyword>argument</md:keyword>
+    <md:keyword>arithmetic sequence</md:keyword>
+    <md:keyword>arithmetic series</md:keyword>
+    <md:keyword>arrow notation</md:keyword>
+    <md:keyword>augmented matrix</md:keyword>
+    <md:keyword>average rate of change</md:keyword>
+    <md:keyword>axis of symmetry</md:keyword>
+    <md:keyword>binomial coefficient</md:keyword>
+    <md:keyword>binomial expansion</md:keyword>
+    <md:keyword>Binomial Theorem</md:keyword>
+    <md:keyword>break-even point</md:keyword>
+    <md:keyword>cardioid</md:keyword>
+    <md:keyword>carrying capacity</md:keyword>
+    <md:keyword>Cartesian equations</md:keyword>
+    <md:keyword>center of an ellipse</md:keyword>
+    <md:keyword>change-of-base formula</md:keyword>
+    <md:keyword>circular motion</md:keyword>
+    <md:keyword>coefficient</md:keyword>
+    <md:keyword>coefficient matrix</md:keyword>
+    <md:keyword>cofunction</md:keyword>
+    <md:keyword>cofunction identities</md:keyword>
+    <md:keyword>column</md:keyword>
+    <md:keyword>combination</md:keyword>
+    <md:keyword>common difference</md:keyword>
+    <md:keyword>common logarithm</md:keyword>
+    <md:keyword>common ratio</md:keyword>
+    <md:keyword>complement</md:keyword>
+    <md:keyword>complex conjugate</md:keyword>
+    <md:keyword>complex number</md:keyword>
+    <md:keyword>complex plane</md:keyword>
+    <md:keyword>component form</md:keyword>
+    <md:keyword>composite function</md:keyword>
+    <md:keyword>composition of functions</md:keyword>
+    <md:keyword>compound interest</md:keyword>
+    <md:keyword>compressing factor</md:keyword>
+    <md:keyword>conic</md:keyword>
+    <md:keyword>consistent system</md:keyword>
+    <md:keyword>constant of variation</md:keyword>
+    <md:keyword>continuous function</md:keyword>
+    <md:keyword>correlation coefficient</md:keyword>
+    <md:keyword>cosecant function</md:keyword>
+    <md:keyword>cosine function</md:keyword>
+    <md:keyword>cost function</md:keyword>
+    <md:keyword>cotangent</md:keyword>
+    <md:keyword>cotangent function</md:keyword>
+    <md:keyword>coterminal angles</md:keyword>
+    <md:keyword>Cramer’s rule</md:keyword>
+    <md:keyword>cubic functions</md:keyword>
+    <md:keyword>curvilinear path</md:keyword>
+    <md:keyword>damped harmonic motion</md:keyword>
+    <md:keyword>De Moivre’s Theorem</md:keyword>
+    <md:keyword>decomposition</md:keyword>
+    <md:keyword>decreasing function</md:keyword>
+    <md:keyword>degree</md:keyword>
+    <md:keyword>dependent system</md:keyword>
+    <md:keyword>dependent variable</md:keyword>
+    <md:keyword>derivative</md:keyword>
+    <md:keyword>Descartes’ Rule of Signs</md:keyword>
+    <md:keyword>determinant</md:keyword>
+    <md:keyword>differentiable</md:keyword>
+    <md:keyword>dimpled limaçon</md:keyword>
+    <md:keyword>direct variation</md:keyword>
+    <md:keyword>discontinuous function</md:keyword>
+    <md:keyword>distance formula</md:keyword>
+    <md:keyword>Division Algorithm</md:keyword>
+    <md:keyword>domain</md:keyword>
+    <md:keyword>dot product</md:keyword>
+    <md:keyword>double-angle formulas</md:keyword>
+    <md:keyword>doubling time</md:keyword>
+    <md:keyword>elimination</md:keyword>
+    <md:keyword>ellipse</md:keyword>
+    <md:keyword>end behavior</md:keyword>
+    <md:keyword>entry</md:keyword>
+    <md:keyword>even function</md:keyword>
+    <md:keyword>even-odd identities</md:keyword>
+    <md:keyword>event</md:keyword>
+    <md:keyword>experiment</md:keyword>
+    <md:keyword>explicit formula</md:keyword>
+    <md:keyword>exponential function</md:keyword>
+    <md:keyword>exponential growth</md:keyword>
+    <md:keyword>exponential model</md:keyword>
+    <md:keyword>extraneous solution</md:keyword>
+    <md:keyword>extrapolation</md:keyword>
+    <md:keyword>Factor Theorem</md:keyword>
+    <md:keyword>factoring</md:keyword>
+    <md:keyword>feasible region</md:keyword>
+    <md:keyword>finite sequence</md:keyword>
+    <md:keyword>foci</md:keyword>
+    <md:keyword>focus</md:keyword>
+    <md:keyword>function</md:keyword>
+    <md:keyword>Fundamental Counting Principle</md:keyword>
+    <md:keyword>Fundamental Theorem of Algebra</md:keyword>
+    <md:keyword>Gauss</md:keyword>
+    <md:keyword>Gaussian elimination</md:keyword>
+    <md:keyword>general form of a quadratic function</md:keyword>
+    <md:keyword>Generalized Pythagorean Theorem</md:keyword>
+    <md:keyword>geometric sequence</md:keyword>
+    <md:keyword>geometric series</md:keyword>
+    <md:keyword>global maximum</md:keyword>
+    <md:keyword>global minimum</md:keyword>
+    <md:keyword>half-angle formulas</md:keyword>
+    <md:keyword>half-life</md:keyword>
+    <md:keyword>harmonic motion</md:keyword>
+    <md:keyword>Heaviside method</md:keyword>
+    <md:keyword>Heron’s formula</md:keyword>
+    <md:keyword>horizontal asymptote</md:keyword>
+    <md:keyword>horizontal compression</md:keyword>
+    <md:keyword>horizontal line</md:keyword>
+    <md:keyword>horizontal line test</md:keyword>
+    <md:keyword>horizontal reflection</md:keyword>
+    <md:keyword>horizontal shift</md:keyword>
+    <md:keyword>horizontal stretch</md:keyword>
+    <md:keyword>hypotenuse</md:keyword>
+    <md:keyword>identities</md:keyword>
+    <md:keyword>identity matrix</md:keyword>
+    <md:keyword>imaginary number</md:keyword>
+    <md:keyword>inconsistent system</md:keyword>
+    <md:keyword>increasing function</md:keyword>
+    <md:keyword>independent system</md:keyword>
+    <md:keyword>independent variable</md:keyword>
+    <md:keyword>index of summation</md:keyword>
+    <md:keyword>infinite sequence</md:keyword>
+    <md:keyword>infinite series</md:keyword>
+    <md:keyword>initial point</md:keyword>
+    <md:keyword>initial side</md:keyword>
+    <md:keyword>inner-loop limaçon</md:keyword>
+    <md:keyword>input</md:keyword>
+    <md:keyword>instantaneous rate of change</md:keyword>
+    <md:keyword>instantaneous velocity</md:keyword>
+    <md:keyword>Intermediate Value Theorem</md:keyword>
+    <md:keyword>interpolation</md:keyword>
+    <md:keyword>interval notation</md:keyword>
+    <md:keyword>inverse cosine function</md:keyword>
+    <md:keyword>inverse function</md:keyword>
+    <md:keyword>inverse of a polynomial function</md:keyword>
+    <md:keyword>inverse of a rational function</md:keyword>
+    <md:keyword>inverse sine function</md:keyword>
+    <md:keyword>inverse tangent function</md:keyword>
+    <md:keyword>inverse trigonometric functions</md:keyword>
+    <md:keyword>inverse variation</md:keyword>
+    <md:keyword>inversely proportional</md:keyword>
+    <md:keyword>invertible functions</md:keyword>
+    <md:keyword>invertible matrix</md:keyword>
+    <md:keyword>joint variation</md:keyword>
+    <md:keyword>jump discontinuity</md:keyword>
+    <md:keyword>Kronecker</md:keyword>
+    <md:keyword>Law of Cosines</md:keyword>
+    <md:keyword>Law of Sines</md:keyword>
+    <md:keyword>leading coefficient</md:keyword>
+    <md:keyword>leading term</md:keyword>
+    <md:keyword>least squares regression</md:keyword>
+    <md:keyword>left-hand limit</md:keyword>
+    <md:keyword>lemniscate</md:keyword>
+    <md:keyword>limaçon</md:keyword>
+    <md:keyword>limit</md:keyword>
+    <md:keyword>limit notation</md:keyword>
+    <md:keyword>limit of a difference</md:keyword>
+    <md:keyword>limit of a power</md:keyword>
+    <md:keyword>limit of a product</md:keyword>
+    <md:keyword>limit of a root</md:keyword>
+    <md:keyword>limit of a sum</md:keyword>
+    <md:keyword>Linear Factorization Theorem</md:keyword>
+    <md:keyword>linear function</md:keyword>
+    <md:keyword>linear speed</md:keyword>
+    <md:keyword>local extrema</md:keyword>
+    <md:keyword>local maximum</md:keyword>
+    <md:keyword>local minimum</md:keyword>
+    <md:keyword>logarithm</md:keyword>
+    <md:keyword>logarithmic function</md:keyword>
+    <md:keyword>logarithmic model</md:keyword>
+    <md:keyword>logistic growth model</md:keyword>
+    <md:keyword>logistic model</md:keyword>
+    <md:keyword>long division</md:keyword>
+    <md:keyword>lower limit of summation</md:keyword>
+    <md:keyword>magnitude</md:keyword>
+    <md:keyword>main diagonal</md:keyword>
+    <md:keyword>major axis</md:keyword>
+    <md:keyword>matrix</md:keyword>
+    <md:keyword>matrix multiplication</md:keyword>
+    <md:keyword>matrix operations</md:keyword>
+    <md:keyword>measure of an angle</md:keyword>
+    <md:keyword>midline</md:keyword>
+    <md:keyword>minor axis</md:keyword>
+    <md:keyword>model breakdown</md:keyword>
+    <md:keyword>modulus</md:keyword>
+    <md:keyword>Multiplication Principle</md:keyword>
+    <md:keyword>multiplicative inverse of a matrix</md:keyword>
+    <md:keyword>multiplicity</md:keyword>
+    <md:keyword>mutually exclusive events</md:keyword>
+    <md:keyword>n factorial</md:keyword>
+    <md:keyword>natural logarithm</md:keyword>
+    <md:keyword>natural numbers</md:keyword>
+    <md:keyword>negative angle</md:keyword>
+    <md:keyword>Newton’s Law of Cooling</md:keyword>
+    <md:keyword>nominal rate</md:keyword>
+    <md:keyword>non-right triangles</md:keyword>
+    <md:keyword>nonlinear inequality</md:keyword>
+    <md:keyword>nth partial sum</md:keyword>
+    <md:keyword>nth term of a sequence</md:keyword>
+    <md:keyword>oblique triangle</md:keyword>
+    <md:keyword>odd function</md:keyword>
+    <md:keyword>one-loop limaçon</md:keyword>
+    <md:keyword>one-to-one function</md:keyword>
+    <md:keyword>opposite side</md:keyword>
+    <md:keyword>order of magnitude</md:keyword>
+    <md:keyword>ordered pair</md:keyword>
+    <md:keyword>ordered triple</md:keyword>
+    <md:keyword>outcome</md:keyword>
+    <md:keyword>output</md:keyword>
+    <md:keyword>parabola</md:keyword>
+    <md:keyword>parabolic curves</md:keyword>
+    <md:keyword>parallel lines</md:keyword>
+    <md:keyword>parameter</md:keyword>
+    <md:keyword>parameterize a curve</md:keyword>
+    <md:keyword>parametric equations</md:keyword>
+    <md:keyword>partial fraction decomposition</md:keyword>
+    <md:keyword>partial fractions</md:keyword>
+    <md:keyword>period</md:keyword>
+    <md:keyword>periodic function</md:keyword>
+    <md:keyword>periodic motion</md:keyword>
+    <md:keyword>permutation</md:keyword>
+    <md:keyword>perpendicular lines</md:keyword>
+    <md:keyword>phase shift</md:keyword>
+    <md:keyword>piecewise function</md:keyword>
+    <md:keyword>plane curves</md:keyword>
+    <md:keyword>point-slope form</md:keyword>
+    <md:keyword>polar axis</md:keyword>
+    <md:keyword>polar coordinates</md:keyword>
+    <md:keyword>polar equations</md:keyword>
+    <md:keyword>polar form</md:keyword>
+    <md:keyword>polar form of a complex number</md:keyword>
+    <md:keyword>pole</md:keyword>
+    <md:keyword>polynomial function</md:keyword>
+    <md:keyword>position vector</md:keyword>
+    <md:keyword>positive angle</md:keyword>
+    <md:keyword>power function</md:keyword>
+    <md:keyword>power rule for logarithms</md:keyword>
+    <md:keyword>probability</md:keyword>
+    <md:keyword>probability model</md:keyword>
+    <md:keyword>product of two matrices</md:keyword>
+    <md:keyword>product rule for logarithms</md:keyword>
+    <md:keyword>product-to-sum formulas</md:keyword>
+    <md:keyword>profit function</md:keyword>
+    <md:keyword>projectile motion</md:keyword>
+    <md:keyword>properties of limits</md:keyword>
+    <md:keyword>Pythagorean identities</md:keyword>
+    <md:keyword>Pythagorean Theorem</md:keyword>
+    <md:keyword>quadrantal angle</md:keyword>
+    <md:keyword>quadratic equation</md:keyword>
+    <md:keyword>quadratic formula</md:keyword>
+    <md:keyword>quotient identities</md:keyword>
+    <md:keyword>quotient rule for logarithms</md:keyword>
+    <md:keyword>radian</md:keyword>
+    <md:keyword>radian measure</md:keyword>
+    <md:keyword>radical functions</md:keyword>
+    <md:keyword>range</md:keyword>
+    <md:keyword>rate of change</md:keyword>
+    <md:keyword>rational function</md:keyword>
+    <md:keyword>Rational Zero Theorem</md:keyword>
+    <md:keyword>rational zeros</md:keyword>
+    <md:keyword>ray</md:keyword>
+    <md:keyword>reciprocal identities</md:keyword>
+    <md:keyword>rectangular coordinates</md:keyword>
+    <md:keyword>rectangular equations</md:keyword>
+    <md:keyword>rectangular form</md:keyword>
+    <md:keyword>recursive formula</md:keyword>
+    <md:keyword>reduction formulas</md:keyword>
+    <md:keyword>reference angle</md:keyword>
+    <md:keyword>regression analysis</md:keyword>
+    <md:keyword>relation</md:keyword>
+    <md:keyword>Remainder Theorem</md:keyword>
+    <md:keyword>removable discontinuity</md:keyword>
+    <md:keyword>resultant</md:keyword>
+    <md:keyword>revenue function</md:keyword>
+    <md:keyword>right triangle</md:keyword>
+    <md:keyword>right-hand limit</md:keyword>
+    <md:keyword>roots</md:keyword>
+    <md:keyword>rose curve</md:keyword>
+    <md:keyword>row</md:keyword>
+    <md:keyword>row operations</md:keyword>
+    <md:keyword>row-echelon form</md:keyword>
+    <md:keyword>row-equivalent</md:keyword>
+    <md:keyword>sample space</md:keyword>
+    <md:keyword>SAS</md:keyword>
+    <md:keyword>scalar</md:keyword>
+    <md:keyword>scalar multiple</md:keyword>
+    <md:keyword>scalar multiplication</md:keyword>
+    <md:keyword>secant</md:keyword>
+    <md:keyword>secant function</md:keyword>
+    <md:keyword>secant line</md:keyword>
+    <md:keyword>sequence</md:keyword>
+    <md:keyword>series</md:keyword>
+    <md:keyword>set-builder notation</md:keyword>
+    <md:keyword>simple harmonic motion</md:keyword>
+    <md:keyword>sine function</md:keyword>
+    <md:keyword>sinusoidal</md:keyword>
+    <md:keyword>sinusoidal function</md:keyword>
+    <md:keyword>slope</md:keyword>
+    <md:keyword>slope-intercept form</md:keyword>
+    <md:keyword>smooth curve</md:keyword>
+    <md:keyword>solution</md:keyword>
+    <md:keyword>solution set</md:keyword>
+    <md:keyword>special angles</md:keyword>
+    <md:keyword>speed</md:keyword>
+    <md:keyword>square matrix</md:keyword>
+    <md:keyword>square root function</md:keyword>
+    <md:keyword>square root of a negative number</md:keyword>
+    <md:keyword>square roots</md:keyword>
+    <md:keyword>SSS</md:keyword>
+    <md:keyword>standard form of a quadratic function</md:keyword>
+    <md:keyword>standard position</md:keyword>
+    <md:keyword>stretching factor</md:keyword>
+    <md:keyword>substitution method</md:keyword>
+    <md:keyword>sum and difference formulas for cosine</md:keyword>
+    <md:keyword>sum and difference formulas for sine</md:keyword>
+    <md:keyword>sum and difference formulas for tangent</md:keyword>
+    <md:keyword>sum-to-product formulas</md:keyword>
+    <md:keyword>summation notation</md:keyword>
+    <md:keyword>symmetry test</md:keyword>
+    <md:keyword>synthetic division</md:keyword>
+    <md:keyword>system of dependent equations</md:keyword>
+    <md:keyword>system of linear equations</md:keyword>
+    <md:keyword>system of nonlinear equations</md:keyword>
+    <md:keyword>system of nonlinear inequalities</md:keyword>
+    <md:keyword>system of three equations in three variables</md:keyword>
+    <md:keyword>systems of linear equations in three variables</md:keyword>
+    <md:keyword>systems of three equations</md:keyword>
+    <md:keyword>tangent function</md:keyword>
+    <md:keyword>tangent line</md:keyword>
+    <md:keyword>term of a polynomial function</md:keyword>
+    <md:keyword>terminal point</md:keyword>
+    <md:keyword>terminal side</md:keyword>
+    <md:keyword>terms</md:keyword>
+    <md:keyword>trigonometric parametric equations</md:keyword>
+    <md:keyword>turning point</md:keyword>
+    <md:keyword>two-sided limit</md:keyword>
+    <md:keyword>union of two events</md:keyword>
+    <md:keyword>unit circle</md:keyword>
+    <md:keyword>unit vector</md:keyword>
+    <md:keyword>upper limit of summation</md:keyword>
+    <md:keyword>upper triangular form</md:keyword>
+    <md:keyword>varies directly</md:keyword>
+    <md:keyword>varies inversely</md:keyword>
+    <md:keyword>vector</md:keyword>
+    <md:keyword>vector addition</md:keyword>
+    <md:keyword>vertex</md:keyword>
+    <md:keyword>vertex form of a quadratic function</md:keyword>
+    <md:keyword>vertical asymptote</md:keyword>
+    <md:keyword>vertical compression</md:keyword>
+    <md:keyword>vertical line</md:keyword>
+    <md:keyword>vertical line test</md:keyword>
+    <md:keyword>vertical reflection</md:keyword>
+    <md:keyword>vertical shift</md:keyword>
+    <md:keyword>vertical stretch</md:keyword>
+    <md:keyword>x-intercept</md:keyword>
+    <md:keyword>y-intercept</md:keyword>
+    <md:keyword>zeros</md:keyword>
+  </md:keywordlist>
+
+  <md:subjectlist>
+    <md:subject>Mathematics and Statistics</md:subject>
+  </md:subjectlist>
+
+  <md:abstract>Precalculus is intended for college-level Precalculus students. Since Precalculus courses vary from one institution to the next, we have attempted to meet the needs of as broad an audience as possible, including all of the content that might be covered in any particular course. The result is a comprehensive book that covers more ground than an instructor could likely cover in a typical one- or two-semester course; but instructors should find, almost without fail, that the topics they wish to include in their syllabus are covered in the text.   Many chapters of Openstax Precalculus are suitable for other freshman and sophomore math courses such as College Algebra and Trigonometry; however, instructors of those courses might need to supplement or adjust the material. Openstax will also be releasing a College Algebra and Trigonometry title tailored to the particular scope, sequence, and pedagogy of those courses.</md:abstract>
+
+  <md:language>en</md:language>
+
+  
+
+  
+  
+  
+  
+  
+
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+
+  <col:parameters>
+    <col:param name="real-imaginary-notation" value="font"/>
+    <col:param name="and-or-notation"
+               value="propositional-logic"/>
+    <col:param name="gradient-notation" value="text"/>
+    <col:param name="mean-notation" value="bar"/>
+    <col:param name="remainder-notation" value="text"/>
+    <col:param name="conjugate-notation" value="bar"/>
+    <col:param name="imaginary-i-notation" value="i"/>
+    <col:param name="scalar-product-notation"
+               value="angle-bracket"/>
+    <col:param name="print-font-size" value="10pt"/>
+    <col:param name="curl-notation" value="text"/>
+    <col:param name="for-all-equation-layout"
+               value="symbolic"/>
+    <col:param name="vector-notation" value="bold"/>
+    <col:param name="print-paper-size" value="8.5x11"/>
+    <col:param name="print-font" value="computer-modern"/>
+    <col:param name="print-style" value="ccap-precalculus"/>
+    <col:param name="print-paragraph-spacing"
+               value="compact"/>
+  </col:parameters>
+  
+  <col:content>
+    
+      <col:module document="m50919" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.8">
+        <md:title>Preface</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Functions</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m49299" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
+        <md:title>Introduction to Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49301" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.9">
+        <md:title>Functions and Function Notation</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49304" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.5">
+        <md:title>Domain and Range</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49306" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.9">
+        <md:title>Rates of Change and Behavior of Graphs</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49308" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
+        <md:title>Composition of Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49312" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.8">
+        <md:title>Transformation of Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49314" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
+        <md:title>Absolute Value Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49320" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.9">
+        <md:title>Inverse Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Linear Functions</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m49321" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.3">
+        <md:title>Introduction to Linear Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49324" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.7">
+        <md:title>Linear Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m50389" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.8">
+        <md:title>Graphs of Linear Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49326" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.5">
+        <md:title>Modeling with Linear Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49327" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.7">
+        <md:title>Fitting Linear Models to Data</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Polynomial and Rational Functions</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m49334" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.3">
+        <md:title>Introduction to Polynomial and Rational Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49335" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.11">
+        <md:title>Complex Numbers</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49337" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.9">
+        <md:title>Quadratic Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49346" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.9">
+        <md:title>Power Functions and Polynomial Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49347" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.11">
+        <md:title>Graphs of Polynomial Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49348" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.8">
+        <md:title>Dividing Polynomials</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49349" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.10">
+        <md:title>Zeros of Polynomial Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49351" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.9">
+        <md:title>Rational Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49352" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.7">
+        <md:title>Inverses and Radical Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49353" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.8">
+        <md:title>Modeling Using Variation</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Exponential and Logarithmic Functions</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m49356" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
+        <md:title>Introduction to Exponential and Logarithmic Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49361" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.10">
+        <md:title>Exponential Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49362" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.12">
+        <md:title>Graphs of Exponential Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49363" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
+        <md:title>Logarithmic Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49364" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.15">
+        <md:title>Graphs of Logarithmic Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49365" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.5">
+        <md:title>Logarithmic Properties</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49366" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.7">
+        <md:title>Exponential and Logarithmic Equations</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49367" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.9">
+        <md:title>Exponential and Logarithmic Models</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49368" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.9">
+        <md:title>Fitting Exponential Models to Data</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Trigonometric Functions</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m49369" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
+        <md:title>Introduction to Trigonometric Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49371" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.10">
+        <md:title>Angles</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49372" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.7">
+        <md:title>Unit Circle: Sine and Cosine Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49374" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.8">
+        <md:title>The Other Trigonometric Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49384" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.5">
+        <md:title>Right Triangle Trigonometry</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Periodic Functions</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m49386" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.3">
+        <md:title>Introduction to Periodic Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49387" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
+        <md:title>Graphs of the Sine and Cosine Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49389" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.10">
+        <md:title>Graphs of the Other Trigonometric Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49390" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.8">
+        <md:title>Inverse Trigonometric Functions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Trigonometric Identities and Equations</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m49392" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
+        <md:title>Introduction to Trigonometric Identities and Equations</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49393" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
+        <md:title>Solving Trigonometric Equations with Identities</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49395" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.5">
+        <md:title>Sum and Difference Identities</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49396" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
+        <md:title>Double-Angle, Half-Angle, and Reduction Formulas</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49397" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.4">
+        <md:title>Sum-to-Product and Product-to-Sum Formulas</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49398" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.7">
+        <md:title>Solving Trigonometric Equations</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49399" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.5">
+        <md:title>Modeling with Trigonometric Equations</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Further Applications of Trigonometry</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m49402" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.3">
+        <md:title>Introduction to Further Applications of Trigonometry</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49404" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.7">
+        <md:title>Non-right Triangles: Law of Sines</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49405" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
+        <md:title>Non-right Triangles: Law of Cosines</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49406" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.7">
+        <md:title>Polar Coordinates</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49407" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
+        <md:title>Polar Coordinates: Graphs</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49408" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.7">
+        <md:title>Polar Form of Complex Numbers</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49409" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.4">
+        <md:title>Parametric Equations</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49411" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
+        <md:title>Parametric Equations: Graphs</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49412" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
+        <md:title>Vectors</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Systems of Equations and Inequalities</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m49418" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.4">
+        <md:title>Introduction to Systems of Equations and Inequalities</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49420" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.4">
+        <md:title>Systems of Linear Equations: Two Variables</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49419" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.8">
+        <md:title>Systems of Linear Equations: Three Variables</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49431" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.5">
+        <md:title>Systems of Nonlinear Equations and Inequalities: Two Variables</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49432" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.3">
+        <md:title>Partial Fractions</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49433" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.3">
+        <md:title>Matrices and Matrix Operations</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49434" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.3">
+        <md:title>Solving Systems with Gaussian Elimination</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49435" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
+        <md:title>Solving Systems with Inverses</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49436" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.5">
+        <md:title>Solving Systems with Cramer's Rule</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Analytic Geometry</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m49437" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
+        <md:title>Introduction to Analytic Geometry</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49438" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.8">
+        <md:title>The Ellipse</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49439" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.7">
+        <md:title>The Hyperbola</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49440" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.7">
+        <md:title>The Parabola</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49441" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.7">
+        <md:title>Rotation of Axes</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49442" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
+        <md:title>Conic Sections in Polar Coordinates</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Sequences, Probability and Counting Theory</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m49443" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.3">
+        <md:title>Introduction to Sequences, Probability and Counting Theory</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49444" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.8">
+        <md:title>Sequences and Their Notations</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49445" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.11">
+        <md:title>Arithmetic Sequences</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49446" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.8">
+        <md:title>Geometric Sequences</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49447" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.13">
+        <md:title>Series and Their Notations</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49448" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.9">
+        <md:title>Counting Principles</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49449" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.9">
+        <md:title>Binomial Theorem</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49450" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.4">
+        <md:title>Probability</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Introduction to Calculus</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m49451" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.4">
+        <md:title>Introduction to Calculus</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49452" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
+        <md:title>Finding Limits: Numerical and Graphical Approaches</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49453" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.4">
+        <md:title>Finding Limits: Properties of Limits</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49454" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.5">
+        <md:title>Continuity</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m49455" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.6">
+        <md:title>Derivatives</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      <col:module document="m50414" version="latest"
+                  repository="https://legacy.cnx.org/content"
+                  cnxorg:version-at-this-collection-version="1.2">
+        <md:title>Basic Functions and Identities</md:title>
+        
+        
+        
+      </col:module>
+        
+      
+    
+  </col:content>
+</col:collection>
