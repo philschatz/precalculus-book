@@ -7,9 +7,9 @@ markdown:         kramdown
 
 # Setup
 title:            'Precalculus'
-tagline:          'from http://cnx.org/contents/fd53eae1-fa23-47c7-bb1b-972349835c3c@7.19 (CC-BY)'
+tagline:          'from http://cnx.org/contents/fd53eae1-fa23-47c7-bb1b-972349835c3c@7.52 (CC-BY)'
 url:              https://github.com/philschatz/precalculus-book
-origin:           http://cnx.org/contents/fd53eae1-fa23-47c7-bb1b-972349835c3c@7.19
+origin:           http://cnx.org/contents/fd53eae1-fa23-47c7-bb1b-972349835c3c@7.52
 
 author:
   name:           'Openstax'
@@ -18,7 +18,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          7.19
+version:          7.52
 
 bookviewer:       http://philschatz.com/book-viewer
 
