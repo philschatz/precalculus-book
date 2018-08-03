@@ -4,9 +4,7 @@ layout: page
 ---
 
 
-<div data-type="abstract">
-Precalculus is intended for college-level Precalculus students. Since Precalculus courses vary from one institution to the next, we have attempted to meet the needs of as broad an audience as possible, including all of the content that might be covered in any particular course. The result is a comprehensive book that covers more ground than an instructor could likely cover in a typical one- or two-semester course; but instructors should find, almost without fail, that the topics they wish to include in their syllabus are covered in the text. Many chapters of Openstax Precalculus are suitable for other freshman and sophomore math courses such as College Algebra and Trigonometry; however, instructors of those courses might need to supplement or adjust the material. Openstax will also be releasing a College Algebra and Trigonometry title tailored to the particular scope, sequence, and pedagogy of those courses.
-</div>
+<div data-type="abstract"></div>
 
 1.  {: .preface} [Preface](contents/m50919.md)
 2.  {: .chapter} [Functions](contents/m49299.md)
